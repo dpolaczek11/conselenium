@@ -5,6 +5,7 @@ name: abc.js CI
 
 env:
   SECRED_PASSWORD: ${{ secrets.SECRET_GITHUB_PASS }}
+  
 
 on:
   push:
