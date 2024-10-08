@@ -1,0 +1,27 @@
+{
+  "name": "conselenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/api.test.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpolaczek11/conselenium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dpolaczek11/conselenium/issues"
+  },
+  "homepage": "https://github.com/dpolaczek11/conselenium#readme",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.7.3",
+    "pactum": "^3.7.1"
+  }
+}
